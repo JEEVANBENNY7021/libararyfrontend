@@ -37,8 +37,6 @@
     ]
   },
 "devDependencies": {
-  "eslint": "^8.0.0",
-  "eslint-plugin-react": "^7.27.0",
-  "eslint-plugin-react-hooks": "^4.0.0"
+  "@babel/plugin-proposal-private-property-in-object": "^7.12.13" // Use the latest version
 }
 }
