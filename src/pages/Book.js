@@ -50,6 +50,7 @@ const Book = () => {
       <h1>Welcome to Library</h1>
       <BlogSearch fetchPosts={fetchPosts} />
       <BlogForm fetchPosts={fetchPosts} initialValues={editingPost} />
+       <BlogList posts ={posts} updatedPost={updatedPost} handleEditClick={handleEditClick} />
       <BlogList posts={posts} deletePost={deletePost} setEditingPost={handleEditClick} />
     </div>
   );
