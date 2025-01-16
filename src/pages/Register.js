@@ -19,6 +19,7 @@ function Register() {
 
       try {
         const result = await axios.post("http://localhost:5000/api/users/register", user);
+         console.log(result.data);
 
         setName("");
         setEmail("");
