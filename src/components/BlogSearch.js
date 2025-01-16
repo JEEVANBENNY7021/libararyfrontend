@@ -24,11 +24,7 @@ const BlogSearch = ({ fetchPosts }) => {
     cursor: 'pointer',
   };
 
-  const buttonHoverStyle = {
-    ...buttonStyle,
-    backgroundColor: '#0056b3',
-  };
-
+ 
   return (
     <div style={{ textAlign: 'center', marginTop: '20px' }}>
       <input 
