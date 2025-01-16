@@ -37,6 +37,6 @@
     ]
   },
 "devDependencies": {
-  "@babel/plugin-proposal-private-property-in-object": "^7.12.13" // Use the latest version
+  "@babel/plugin-proposal-private-property-in-object": "^7.12.13"
 }
 }
